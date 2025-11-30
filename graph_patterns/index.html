@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph Patterns - DSA Study Guide</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>🕸️ Graph Patterns</h1>
+        <p>Master graph algorithms and traversal techniques</p>
+        <button class="theme-toggle" onclick="toggleTheme()">🌙 Dark Mode</button>
+    </header>
+
+    <nav class="tabs">
+        <button class="tab-btn active" data-tab="connected-components">Connected Components</button>
+        <button class="tab-btn" data-tab="shortest-path">Shortest Path</button>
+        <button class="tab-btn" data-tab="cycle-detection">Cycle Detection</button>
+        <button class="tab-btn" data-tab="bipartite">Bipartite Check</button>
+        <button class="tab-btn" data-tab="mst">Minimum Spanning Tree</button>
+        <button class="tab-btn" data-tab="dag-traversal">DAG Traversal</button>
+        <button class="tab-btn" data-tab="graph-coloring">Graph Coloring</button>
+    </nav>
+
+    <main>
+        <div id="connected-components" class="tab-content active"></div>
+        <div id="shortest-path" class="tab-content"></div>
+        <div id="cycle-detection" class="tab-content"></div>
+        <div id="bipartite" class="tab-content"></div>
+        <div id="mst" class="tab-content"></div>
+        <div id="dag-traversal" class="tab-content"></div>
+        <div id="graph-coloring" class="tab-content"></div>
+    </main>
+
+    <footer>
+        <p>Graph Patterns Study Guide | DSA Preparation</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/cpp.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/patterns/connected-components.js"></script>
+    <script src="js/patterns/shortest-path.js"></script>
+    <script src="js/patterns/cycle-detection.js"></script>
+    <script src="js/patterns/bipartite.js"></script>
+    <script src="js/patterns/mst.js"></script>
+    <script src="js/patterns/dag-traversal.js"></script>
+    <script src="js/patterns/graph-coloring.js"></script>
+    <script src="js/init.js"></script>
+</body>
+</html>

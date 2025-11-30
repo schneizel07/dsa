@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack & Queue Patterns - LeetCode</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/cpp.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>📚 Stack & Queue Patterns</h1>
+        <p>Master stack and queue-based problem solving with visual explanations</p>
+        <button class="theme-toggle" onclick="toggleTheme()">
+            <span id="theme-icon">🌙</span>
+            <span id="theme-text">Dark</span>
+        </button>
+    </header>
+
+    <nav class="tabs">
+        <button class="tab-btn active" data-tab="design-problems">Design Problems</button>
+        <button class="tab-btn" data-tab="monotonic-stack">Monotonic Stack</button>
+        <button class="tab-btn" data-tab="expression-eval">Expression Evaluation</button>
+        <button class="tab-btn" data-tab="two-stacks">Two Stacks</button>
+        <button class="tab-btn" data-tab="sliding-window">Sliding Window & Monotonic Queue</button>
+    </nav>
+
+    <main>
+        <div id="design-problems" class="tab-content active"></div>
+        <div id="monotonic-stack" class="tab-content"></div>
+        <div id="expression-eval" class="tab-content"></div>
+        <div id="two-stacks" class="tab-content"></div>
+        <div id="sliding-window" class="tab-content"></div>
+    </main>
+
+    <footer>
+        <p>Built for DSA Practice | Stack & Queue Patterns</p>
+    </footer>
+
+    <!-- Load main utilities first -->
+    <script src="js/main.js"></script>
+    <!-- Then load pattern content -->
+    <script src="js/patterns/design-problems.js"></script>
+    <script src="js/patterns/monotonic-stack.js"></script>
+    <script src="js/patterns/expression-eval.js"></script>
+    <script src="js/patterns/two-stacks.js"></script>
+    <script src="js/patterns/sliding-window.js"></script>
+    <!-- Initialize after all patterns loaded -->
+    <script src="js/init.js"></script>
+</body>
+</html>

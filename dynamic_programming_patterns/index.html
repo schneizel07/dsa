@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Programming Patterns</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>🧩 Dynamic Programming Patterns</h1>
+            <p class="subtitle">Master DP through pattern recognition</p>
+        </div>
+        <button class="theme-btn">🌙</button>
+    </header>
+
+    <nav class="pattern-tabs">
+        <button class="tab-btn active" data-pattern="basic-dp">Basic DP</button>
+        <button class="tab-btn" data-pattern="optimal-substructure">Optimal Substructure</button>
+        <button class="tab-btn" data-pattern="interval-range">Interval/Range DP</button>
+        <button class="tab-btn" data-pattern="knapsack">Knapsack</button>
+        <button class="tab-btn" data-pattern="prefix-sums">Prefix Sums</button>
+        <button class="tab-btn" data-pattern="counting">Counting</button>
+        <button class="tab-btn" data-pattern="interval-partitioning">Interval Partitioning</button>
+        <button class="tab-btn" data-pattern="probability">Probability & Expectations</button>
+    </nav>
+
+    <main id="pattern-content">
+        <!-- Content will be dynamically loaded -->
+    </main>
+
+    <footer>
+        <p>Dynamic Programming Patterns Guide | Built for mastering algorithmic problem solving</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>window.patterns = window.patterns || {};</script>
+    <script src="js/patterns/basic-dp.js"></script>
+    <script src="js/patterns/optimal-substructure.js"></script>
+    <script src="js/patterns/interval-range.js"></script>
+    <script src="js/patterns/knapsack.js"></script>
+    <script src="js/patterns/prefix-sums.js"></script>
+    <script src="js/patterns/counting.js"></script>
+    <script src="js/patterns/interval-partitioning.js"></script>
+    <script src="js/patterns/probability.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/init.js"></script>
+</body>
+</html>
